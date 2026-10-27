@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook>
+  <offices>
+    <office code="A01">Главный офис</office>
+    <office code="B02">Филиал</office>
+  </offices>
+
+  <person id="p001" office="A01">
+    <name>
+      <first>Иван</first>
+      <surname>Иванов</surname>
+    </name>
+    <address>
+      <city>Москва</city>
+      <street>Тверская, 10</street>
+      <index>125009</index>
+    </address>
+    <phones>
+      <phone type="work">123-45-67</phone>
+      <phone type="home">987-65-43</phone>
+    </phones>
+  </person>
+
+  <person id="p002" office="B02">
+    <name>
+      <first>Анна</first>
+      <surname>Петрова</surname>
+    </name>
+    <address>
+      <index>190000</index>
+      <street>Невский проспект, 20</street>
+      <city>Санкт-Петербург</city>
+    </address>
+    <phones>
+      <phone>555-12-34</phone>
+    </phones>
+  </person>
+</notebook>
